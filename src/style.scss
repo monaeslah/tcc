@@ -21,7 +21,7 @@ body {
 
 .menu-trigger {
   background: #ffffff;
-  border-radius: 3px;
+  border-radius: 6px;
   min-width: 350px;
   min-height: 40px;
   cursor: pointer;
@@ -29,8 +29,8 @@ body {
   justify-content:flex-end;
   align-items: center;
   padding: 4px 16px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-  border: 0.5px solid #92929265;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
   vertical-align: middle;
   transition: box-shadow 0.4s ease;
   // :hover {
@@ -121,17 +121,17 @@ input{
       text-align: right;
       padding: 6px;
       border-radius: 5px;
-      border: solid 1px #EEEEEE;
+      border: solid 2px #EEEEEE;
       height: 40px;
       margin:8px 12px ;
     &:focus{
-      border:solid 1px #841474;
+      border:solid 2px #841474;
       border-radius: 5px;
         outline: none;
     
       }
       &.inCorreuct{
-        border:solid 1px #FF5A5A;
+        border:solid 2px #FF5A5A;
         border-radius: 5px;
           outline: none;
       color:#FF5A5A;    
@@ -146,18 +146,18 @@ input{
       text-align: right;
       padding: 6px;
       border-radius: 5px;
-      border: solid 1px #EEEEEE;
+      border: solid 2px #EEEEEE;
       height: 40px;
       margin:8px 12px ;
       font-weight: 900;
     &:focus{
-      border:solid 1px #841474;
+      border:solid 2px #841474;
       border-radius: 5px;
       outline: none;
       font-weight: 900;
       }
      &.Correuct{
-        border:solid 1px #36B38B;
+        border:solid 2px #36B38B;
         border-radius: 5px;
           outline: none; 
           font-weight: 900;
@@ -171,11 +171,11 @@ input{
       text-align: right;
       padding: 6px;
       border-radius: 5px;
-      border: solid 1px #EEEEEE;
+      border: solid 2px #EEEEEE;
       height: 40px;
       margin:8px 12px ;
     &:focus{
-      border:solid 1px #841474;
+      border:solid 2px #841474;
       border-radius: 5px;
         outline: none;
         font-weight: 900;
@@ -185,7 +185,7 @@ input{
       text-align: right;
       padding: 6px;
       border-radius: 5px;
-      border: solid 1px #EEEEEE;
+      border: solid 2px #EEEEEE;
       height: 40px;
       margin:8px 12px ;
   
@@ -199,13 +199,13 @@ input{
   text-align: right;
   padding: 6px;
   border-radius: 5px;
-  border: solid 1px #EEEEEE; 
+  border: solid 2px #EEEEEE; 
   margin:8px 12px ;
   width: 310px;
   height: 100px;
   font-weight: 900;
 &:focus{
-  border:solid 1px #841474;
+  border:solid 2px #841474;
   border-radius: 5px;
     outline: none;
     font-weight: 900;
