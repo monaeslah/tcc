@@ -17,15 +17,15 @@ export default class Forms extends Component {
              <div className="column">
                  <p>Checkboxes</p>
 
-                 <label className="containerss">One
+                 <label className="containerss">checkboxes
             <input type="checkbox"  />
             <span className="checkmark"></span>
             </label>
-            <label className="containerss">Two
+            <label className="containerss">indeterminate
             <input type="checkbox" />
             <span className="checkmark"></span>
             </label>
-            <label className="containerss">Three
+            <label className="containerss">disabled
             <input type="checkbox"  disabled/>
             <span className="checkmark disabled"></span>
             </label>
